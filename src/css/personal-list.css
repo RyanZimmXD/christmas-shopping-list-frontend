@@ -1,0 +1,60 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(130, 121, 121);
+}
+
+#list-backdrop{
+    
+    border: solid black;
+    border-radius: 5%;
+    background-color: aliceblue;
+
+    width: 90vw;
+    height: 95vh;
+
+    overflow-y: auto;
+}
+
+#list-backdrop .item:last-child{
+    margin-bottom: 40px;
+    
+}
+
+#list-backdrop .item:first-child{
+    margin-top: 40px;
+}
+
+
+.item{
+    margin-top: 10px;
+    border: solid black;
+    display: block;
+    height: 30px;
+
+    width: 90%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.save-button{
+    float: right;
+    background-color: rgb(44, 120, 250);
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 4%;
+}
+
+.save-button:hover{
+    background-color: rgb(33, 84, 174);
+}
+
+.save-button:active{
+    background-color: rgb(73, 106, 161);
+}
+
